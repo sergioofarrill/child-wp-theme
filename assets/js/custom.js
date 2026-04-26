@@ -234,3 +234,18 @@ window.onload = function () {
       }
     });
 };
+
+// Funcion para spam de correo
+
+// Usamos DOMContentLoaded para asegurar que el HTML ya exista
+window.addEventListener("DOMContentLoaded", (event) => {
+  const encodedEmail = "cGFydG5lcnNAc2VyZ2lvb2ZhcnJpbGwuY29t";
+  const decodedEmail = atob(encodedEmail);
+  const link = document.getElementById("email-link");
+
+  // Verificamos que el elemento exista antes de asignarle cosas
+  if (link) {
+    link.href = "mailto:" + decodedEmail;
+    link.textContent = "Partnership & booking inquiries";
+  }
+});

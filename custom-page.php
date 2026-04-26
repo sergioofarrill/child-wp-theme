@@ -188,12 +188,7 @@
         <h2 class="text-5xl font-semibold tracking-tighter">Let's Connect</h2>
         <p class="mt-6 text-gray-400 text-lg">Booking • Collaborations • 90's Pop Tour inquiries</p>
         <div class="mt-12 space-y-8">
-          <a href="mailto:partners@sergioofarrill.com" class="flex gap-6 items-center group">
-            <div class="w-14 h-14 rounded-2xl bg-white/10 flex items-center justify-center text-3xl">✉️</div>
-            <div>
-              <div class="text-xl group-hover:text-blue-400">partners@sergioofarrill.com</div>
-              <div class="text-sm text-gray-400">Partnership &amp; booking inquiries</div>
-            </div>
+          <a href="#" id="email-link" class="flex gap-6 items-center group  hover:bg-blue-300 inline-flex items-center gap-4 bg-blue-400 text-black px-12 py-6 rounded-3xl  font-semibold">
           </a>
           <div class="flex gap-6 text-3xl">
             <a href="https://www.instagram.com/sergioofarrill" target="_blank" class="hover:text-blue-400">📷</a>
