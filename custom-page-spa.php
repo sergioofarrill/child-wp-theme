@@ -52,19 +52,23 @@
 
    <!-- PHOTOS SECTION (unchanged) -->
   <section id="photos" class="py-24 bg-gray-900">
-    <div class="max-w-screen-2xl mx-auto px-6 lg:px-12">
-      <div class="text-center mb-12">
-        <span class="uppercase text-blue-400 text-sm tracking-widest">DIARIO VISUAL</span>
-        <h2 class="text-5xl font-semibold tracking-tighter mt-2 pb-20">Momentos de Foto</h2>
-        <div class="prose prose-invert text-lg text-gray-300">
-          <p>I like using photography as a visual journal, a way to make sure the amazing world in which we live in.</p>
-        </div>
+      <div class="max-w-screen-2xl mx-auto px-6 lg:px-12">
+          <div class="text-center mb-12 relative z-10">
+            <span class="uppercase text-blue-400 text-sm tracking-widest">DIARIO VISUAL</span>
+            <h2 class="text-5xl font-semibold tracking-tighter mt-2 ">Momentos de Foto</h2>
+            <div class="flex justify-center ">
+            <p class="text-lg text-gray-300 text-center max-w-2xl leading-relaxed">
+              Utilizo la fotografia como diario visual. Como una forma de recordatorio de lo maravillosa que es esta vida.
+            </p>
+          </div>
+          </div>
       </div>
+      
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        <div class="photo-card rounded-3xl overflow-hidden parallax-layer" data-speed="0.15"><img src="https://sergioofarrill.com/wp-content/uploads/2026/04/95FD1F8E-9C71-49A9-9EA4-A551294E1A17-scaled.jpg" alt="Stage performance" class="w-full aspect-4/5 object-cover"></div>
-        <div class="photo-card rounded-3xl overflow-hidden parallax-layer" data-speed="0.25"><img src="https://sergioofarrill.com/wp-content/uploads/2026/04/IMG_0231-scaled.jpg" alt="Skydiving" class="w-full aspect-4/5 object-cover"></div>
-        <div class="photo-card rounded-3xl overflow-hidden parallax-layer" data-speed="0.1"><img src="https://sergioofarrill.com/wp-content/uploads/2026/04/GPTempDownload-scaled.jpg" alt="Motorcycle ride" class="w-full aspect-4/5 object-cover"></div>
-        <div class="photo-card rounded-3xl overflow-hidden parallax-layer" data-speed="0.3"><img src="https://sergioofarrill.com/wp-content/uploads/2026/04/DSF2885-scaled.jpg" alt="Travel portrait" class="w-full aspect-4/5 object-cover"></div>
+        <div class="photo-card rounded-3xl overflow-hidden mt-20" data-speed="0.15"><img src="https://sergioofarrill.com/wp-content/uploads/2026/04/95FD1F8E-9C71-49A9-9EA4-A551294E1A17-scaled.jpg" alt="Stage performance" class="w-full aspect-4/5 object-cover"></div>
+        <div class="photo-card rounded-3xl overflow-hidden " data-speed="0.25"><img src="https://sergioofarrill.com/wp-content/uploads/2026/04/IMG_0231-scaled.jpg" alt="Skydiving" class="w-full aspect-4/5 object-cover"></div>
+        <div class="photo-card rounded-3xl overflow-hidden mt-20" data-speed="0.1"><img src="https://sergioofarrill.com/wp-content/uploads/2026/04/GPTempDownload-scaled.jpg" alt="Motorcycle ride" class="w-full aspect-4/5 object-cover"></div>
+        <div class="photo-card rounded-3xl overflow-hidden " data-speed="0.3"><img src="https://sergioofarrill.com/wp-content/uploads/2026/04/DSF2885-scaled.jpg" alt="Travel portrait" class="w-full aspect-4/5 object-cover"></div>
       </div>
     </div>
   </section>
@@ -72,7 +76,7 @@
   <!-- MUSIC SECTION (unchanged) -->
   <section id="music" class="py-24 bg-gray-900">
     <div class="max-w-screen-2xl mx-auto px-6 lg:px-12">
-      <div class="flex justify-between items-end mb-12">
+      <div class="text-center mb-16">
         <div>
           <span class="uppercase text-blue-400 text-sm tracking-widest">CAPITULO 01 • CURRENT PROJECT</span>
           <h2 class="text-5xl font-semibold tracking-tighter">KABAH &amp; 90's Pop Tour: El Antro</h2>

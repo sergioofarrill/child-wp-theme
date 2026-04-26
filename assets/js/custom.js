@@ -8,10 +8,30 @@ function initParallax() {
   let ticking = false;
 
   function update() {
-    const scrollY = window.scrollY;
+    const windowHeight = window.innerHeight;
+
     layers.forEach((layer) => {
-      const speed = parseFloat(layer.getAttribute("data-speed")) || 0.15;
-      layer.style.transform = `translate3d(0, ${Math.round(scrollY * speed * -0.6)}px, 0)`;
+      const rect = layer.getBoundingClientRect();
+
+      if (rect.top < windowHeight && rect.bottom > 0) {
+        // 1. Movimiento Parallax
+        const speed = parseFloat(layer.getAttribute("data-speed")) || 0.15;
+        const movement = Math.round(window.scrollY * speed * -0.6);
+        layer.style.transform = `translate3d(0, ${movement}px, 0)`;
+
+        // 2. Lógica: Desaparecer cuando el 50% de la foto pasó el tope
+        const halfHeight = rect.height / 2;
+
+        // Si el tope es negativo, significa que ya empezó a salir
+        if (rect.top < -halfHeight) {
+          // Calculamos la opacidad basándonos en la otra mitad restante
+          // Se volverá invisible cuando rect.top llegue a -rect.height
+          let opacity = 1 - (Math.abs(rect.top) - halfHeight) / halfHeight;
+          layer.style.opacity = Math.max(0, Math.min(1, opacity));
+        } else {
+          layer.style.opacity = 1; // Sigue visible mientras no pase el 50%
+        }
+      }
     });
     ticking = false;
   }

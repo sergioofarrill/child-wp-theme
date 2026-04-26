@@ -27,7 +27,7 @@
 
   <!-- HERO (unchanged) -->
   <section id="home" class="min-h-screen relative flex items-center">
-    <div class="absolute inset-0 parallax-bg bg-position-[center_top_10%]" style="background-image: url('https://sergioofarrill.com/wp-content/uploads/2026/04/hero-img-scaled.jpg');"></div>
+    <div class="absolute inset-0 z-0 parallax-bg bg-position-[center_top_10%]" style="background-image: url('https://sergioofarrill.com/wp-content/uploads/2026/04/hero-img-scaled.jpg');"></div>
     <div class="absolute inset-0 bg-linear-to-b from-black/20 via-black/70 to-black"></div>
 
     <div class="relative z-10 max-w-screen-2xl mx-auto px-6 lg:px-12">
@@ -57,7 +57,7 @@
   <section id="about" class="py-24 bg-gray-950">
     <div class="max-w-screen-2xl mx-auto px-6 lg:px-12 grid md:grid-cols-12 gap-16">
         <div class="md:col-span-5 relative">
-        <div class="parallax-layer rounded-3xl overflow-hidden" data-speed="0.3">
+        <div class="z-0 parallax-layer rounded-3xl overflow-hidden" data-speed="0.3">
           <img src="https://sergioofarrill.com/wp-content/uploads/2026/04/Copy-of-kabah-01-scaled.jpg" alt="Sergio O'Farrill portrait" class="w-full">
         </div>
       </div>
@@ -77,18 +77,21 @@
   <!-- PHOTOS SECTION (unchanged) -->
   <section id="photos" class="py-24 bg-gray-900">
     <div class="max-w-screen-2xl mx-auto px-6 lg:px-12">
-      <div class="text-center mb-12">
+      <div class="text-center relative z-10 mb-12">
         <span class="uppercase text-blue-400 text-sm tracking-widest">VISUAL JOURNAL</span>
         <h2 class="text-5xl font-semibold tracking-tighter mt-2 pb-20">Moments I Capture</h2>
-        <div class="prose prose-invert text-lg text-gray-300">
-          <p>I like using photography as a visual journal, a way to make sure the amazing world in which we live in.</p>
-        </div>
+        <div class="flex justify-center">
+        <p class="text-lg text-gray-300 text-center max-w-2xl leading-relaxed">
+          I like using photography as a visual journal, a way to make sure I never forget this amazing world in which we live in.
+        </p>
       </div>
+      </div>
+      
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        <div class="photo-card rounded-3xl overflow-hidden parallax-layer" data-speed="0.15"><img src="https://sergioofarrill.com/wp-content/uploads/2026/04/95FD1F8E-9C71-49A9-9EA4-A551294E1A17-scaled.jpg" alt="Stage performance" class="w-full aspect-4/5 object-cover"></div>
-        <div class="photo-card rounded-3xl overflow-hidden parallax-layer" data-speed="0.25"><img src="https://sergioofarrill.com/wp-content/uploads/2026/04/IMG_0231-scaled.jpg" alt="Skydiving" class="w-full aspect-4/5 object-cover"></div>
-        <div class="photo-card rounded-3xl overflow-hidden parallax-layer" data-speed="0.1"><img src="https://sergioofarrill.com/wp-content/uploads/2026/04/GPTempDownload-scaled.jpg" alt="Motorcycle ride" class="w-full aspect-4/5 object-cover"></div>
-        <div class="photo-card rounded-3xl overflow-hidden parallax-layer" data-speed="0.3"><img src="https://sergioofarrill.com/wp-content/uploads/2026/04/DSF2885-scaled.jpg" alt="Travel portrait" class="w-full aspect-4/5 object-cover"></div>
+        <div class="photo-card rounded-3xl overflow-hidden z-0 mt-20" data-speed="0.15"><img src="https://sergioofarrill.com/wp-content/uploads/2026/04/95FD1F8E-9C71-49A9-9EA4-A551294E1A17-scaled.jpg" alt="Stage performance" class="w-full aspect-4/5 object-cover"></div>
+        <div class="photo-card rounded-3xl overflow-hidden z-0 " data-speed="0.25"><img src="https://sergioofarrill.com/wp-content/uploads/2026/04/IMG_0231-scaled.jpg" alt="Skydiving" class="w-full aspect-4/5 object-cover"></div>
+        <div class="photo-card rounded-3xl overflow-hidden z-0 mt-20 " data-speed="0.1"><img src="https://sergioofarrill.com/wp-content/uploads/2026/04/GPTempDownload-scaled.jpg" alt="Motorcycle ride" class="w-full aspect-4/5 object-cover"></div>
+        <div class="photo-card rounded-3xl overflow-hidden z-0 " data-speed="0.3"><img src="https://sergioofarrill.com/wp-content/uploads/2026/04/DSF2885-scaled.jpg" alt="Travel portrait" class="w-full aspect-4/5 object-cover"></div>
       </div>
     </div>
   </section>
@@ -96,7 +99,7 @@
   <!-- MUSIC SECTION (unchanged) -->
   <section id="music" class="py-24 bg-gray-900">
     <div class="max-w-screen-2xl mx-auto px-6 lg:px-12">
-      <div class="flex justify-between items-end mb-12">
+      <div class="text-center mb-16">
         <div>
           <span class="uppercase text-blue-400 text-sm tracking-widest">CHAPTER 01 • CURRENT PROJECT</span>
           <h2 class="text-5xl font-semibold tracking-tighter">90's Pop Tour: El Antro</h2>
