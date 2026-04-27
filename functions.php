@@ -16,6 +16,14 @@ function blu_theme_assets() {
         '1.0', 
         'all' );
 
+    function enqueue_cloudflare_fontawesome() {
+    wp_enqueue_style( 
+        'font-awesome-cloudflare', 
+        'https://cloudflare.com' );
+    }
+    add_action( 'wp_enqueue_scripts', 'enqueue_cloudflare_fontawesome' );
+
+
     // Include JavaScript
     wp_enqueue_script( 
     'custom',
