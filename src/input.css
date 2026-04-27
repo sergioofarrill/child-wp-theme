@@ -88,3 +88,16 @@
 .btn-blue:hover {
   @apply bg-blue-700;
 }
+
+/* Links Page */
+body.page-template-custom-links {
+  background: linear-gradient(to bottom, #1a1a2e, #16213e);
+  font-family: system-ui, sans-serif;
+}
+.link-card {
+  transition: all 0.3s ease;
+}
+.link-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+}

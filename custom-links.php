@@ -78,7 +78,7 @@
           <a
             href="https://sergioofarrill.com"
             target="_blank"
-            class="link-card block bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 rounded-2xl py-4 px-6 text-left flex items-center gap-4"
+            class="link-card bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 rounded-2xl py-4 px-6 text-left flex items-center gap-4"
           >
             <i class="fas fa-globe text-2xl"></i>
             <div>
