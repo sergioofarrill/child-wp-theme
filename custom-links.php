@@ -27,7 +27,7 @@
             class="text-3xl hover:scale-110 transition-transform"
             aria-label="Instagram"
           >
-            <i class="fab fa-instagram"></i>
+            <i class="fab fa-solid fa-instagram">&nbsp;</i>
           </a>
           <a
             href="https://www.tiktok.com/@sergioofarrill"
@@ -35,7 +35,7 @@
             class="text-3xl hover:scale-110 transition-transform"
             aria-label="Tiktok"
           >
-            <i class="fab fa-tiktok"></i>
+            <i class="fab fa-solid fa-tiktok">&nbsp;</i>
           </a>
           <a
             href="https://www.youtube.com/@SergioOFarrillplus"
@@ -43,7 +43,7 @@
             class="text-3xl hover:scale-110 transition-transform"
             aria-label="Youtube"
           >
-            <i class="fab fa-youtube"></i>
+            <i class="fab fa-solid fa-youtube">&nbsp;</i>
           </a>
           <a
             href="https://www.imdb.com/es/name/nm2118602/"
@@ -51,7 +51,7 @@
             class="text-3xl hover:scale-110 transition-transform"
             aria-label="IMDB"
           >
-            <i class="fab fa-imdb"></i>
+            <i class="fab fa-solid fa-imdb">&nbsp;</i>
           </a>
           <a
             href="https://twitter.com/sergioofarrill"
@@ -59,7 +59,7 @@
             class="text-3xl hover:scale-110 transition-transform"
             aria-label="Twitter/X"
           >
-            <i class="fab fa-x-twitter"></i>
+            <i class="fab fa-solid fa-x-twitter">&nbsp;</i>
           </a>
           <a
             href="https://www.facebook.com/sergioofarrll/?locale=es_LA"
@@ -67,7 +67,7 @@
             class="text-3xl hover:scale-110 transition-transform"
             aria-label="Facebook"
           >
-            <i class="fab fa-facebook"></i>
+            <i class="fab fa-solid fa-facebook">&nbsp;</i>
           </a>
 
           <!-- Add more icons as needed: fa-youtube, fa-tiktok, fa-facebook, etc. -->
@@ -99,7 +99,7 @@
              <?php
             // 1. Configurar los argumentos (cuántos posts quieres ver)
             $args = array(
-                'posts_per_page' => 3, // Cambia el número según necesites
+                'posts_per_page' => 1, // Cambia el número según necesites
                 'post_status'    => 'publish',
                 'category__in' => array( 38, 40, 10, 20, 39, 7 )
             );
