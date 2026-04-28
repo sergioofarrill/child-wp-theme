@@ -92,6 +92,10 @@ body.page-template-custom-links {
   background: linear-gradient(to bottom, #1a1a2e, #16213e);
   font-family: system-ui, sans-serif;
 }
+.page-template-custom-links header,
+.page-template-custom-links footer {
+  display: none !important;
+}
 .link-card {
   transition: all 0.3s ease;
 }
