@@ -96,20 +96,36 @@
 
           <div class="space-y-6">
             <!-- Blog Post 1 -->
-            <a
-              href="https://sergioofarrill.com/2026/04/27/helisking-alaska-el-sueno-en-las-chugach/"
-              target="_blank"
-              class="link-card block bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 rounded-2xl p-5"
-            >
-              <div class="font-medium">
-                HeliSking ALASKA: El Sueño en las Chugach
-              </div>
-              <div class="text-sm text-gray-400 mt-1">• April 27, 2026 •</div>
-              <div class="text-gray-300 text-sm mt-3 line-clamp-2">
-                Nuestra travesía comenzó en Anchorage. Llegamos un par de días
-                antes del gran evento...
-              </div>
+             <?php
+            // 1. Configurar los argumentos (cuántos posts quieres ver)
+            $args = array(
+                'posts_per_page' => 3, // Cambia el número según necesites
+                'post_status'    => 'publish',
+                'category__in' => array( 38, 40, 10, 20, 39, 7 )
+            );
+            // nueva consulta
+            $latest_posts = new WP_Query($args);
+
+            // Loop
+            if ($latest_posts->have_posts()) : 
+                while ($latest_posts->have_posts()) : $latest_posts->the_post(); ?>
+            <a href="<?php the_permalink(); ?> target="_blank" class="link-card block bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 rounded-2xl p-5"> 
+                <div class="font-medium">
+                    <?php the_title(); ?>
+                </div>
+                <div class="text-sm text-gray-400 mt-1">
+                  • <?php echo get_the_date(); ?> •
+                </div>
+                <div class="text-gray-300 text-sm mt-3 line-clamp-2">
+                   <?php the_excerpt(); ?>
+                </div>
             </a>
+                <?php endwhile;
+                // Restaurar los datos originales de la página principal
+                wp_reset_postdata(); 
+            else : ?>
+                <p>No hay publicaciones recientes.</p>
+            <?php endif; ?>
 
             <!-- Blog Post 2 
           <a
