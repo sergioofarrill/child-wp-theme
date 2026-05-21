@@ -109,7 +109,7 @@
       </div>
 
       <div id="tour-dates-container" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Dynamic cards will be populated by JS below -->
+        <!-- Dynamic cards will be populated by Custom JS  -->
       </div>
 
       <div class="text-center mt-12 text-sm text-gray-400">

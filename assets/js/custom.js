@@ -44,37 +44,9 @@ function initParallax() {
   });
 }
 
-// Tour Dates Data – Replace with ACF output in production
+// Tour Dates Data – Replace with ACF output in production ?
 // In WordPress: Use PHP to echo ACF repeater as JSON and assign to window.tourDates
 const tourDates = [
-  {
-    date: "2026-05-08",
-    project: "Kabah",
-    city: "Tequisquiapan",
-    venue: "Teatro del Pueblo",
-    ticket_link: "#", // Replace with real link
-  },
-  {
-    date: "2026-05-09",
-    city: "Merida",
-    project: "Antro",
-    venue: "Auditorio GNP",
-    ticket_link: "#",
-  },
-  {
-    date: "2026-05-10",
-    city: "Puebla",
-    project: "Antro",
-    venue: "Palenque ",
-    ticket_link: "#",
-  },
-  {
-    date: "2026-05-16",
-    project: "Kabah",
-    city: "Yautepec",
-    venue: "TBD",
-    ticket_link: "#", // Replace with real link
-  },
   {
     date: "2026-05-29<",
     project: "Kabah",
@@ -85,10 +57,31 @@ const tourDates = [
   {
     date: "2026-05-30",
     project: "Okrilu",
-    city: "Ciudad de Mexico<",
+    city: "Ciudad de Mexico",
     venue: "Arena Ciudad de Mexico",
     ticket_link:
       "https://boletosde.com/kabah/arena-cdmx/sabado-30-mayo-2026-21-00/resale", // Replace with real link
+  },
+  {
+    date: "2026-06-13",
+    project: "Antro",
+    city: "Villahermosa",
+    venue: "TBC",
+    ticket_link: "#", // Replace with real link
+  },
+  {
+    date: "2026-06-27",
+    project: "Kabah",
+    city: "Tijuana",
+    venue: "TBC",
+    ticket_link: "#", // Replace with real link
+  },
+  {
+    date: "2026-08-22",
+    project: "Kabah",
+    city: "Monterrey",
+    venue: "Foro GNP",
+    ticket_link: "#", // Replace with real link
   },
   {
     date: "2026-09-18",

@@ -98,7 +98,6 @@ body.page-template-custom-links {
 }
 .link-card {
   transition: all 0.3s ease;
-  display: block;
 }
 .link-card:hover {
   transform: translateY(-4px);
