@@ -136,7 +136,7 @@
       </div>
 
       <div class="text-center mt-12 text-sm text-gray-400">
-        More dates being added weekly. Follow <a href="https://www.instagram.com/90spoptour/" target="_blank" class="text-blue-400 hover:underline">@90spoptour</a> for updates.
+        More dates being added weekly. Follow <a href="https://www.instagram.com/kabah_oficial/" target="_blank" class="text-blue-400 hover:underline">@kabah_oficial</a> y <a href="https://www.instagram.com/90spoptour/" target="_blank" class="text-blue-400 hover:underline">@90spoptour</a> for updates.
       </div>
     </div>
   </section>

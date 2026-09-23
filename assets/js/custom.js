@@ -48,48 +48,46 @@ function initParallax() {
 // In WordPress: Use PHP to echo ACF repeater as JSON and assign to window.tourDates
 const tourDates = [
   {
-    date: "2026-05-29<",
-    project: "Kabah",
-    city: "La Paz",
-    venue: "La Paz",
-    ticket_link: "#", // Replace with real link
-  },
-  {
-    date: "2026-05-30",
-    project: "Okrilu",
-    city: "Ciudad de Mexico",
-    venue: "Arena Ciudad de Mexico",
-    ticket_link:
-      "https://boletosde.com/kabah/arena-cdmx/sabado-30-mayo-2026-21-00/resale", // Replace with real link
-  },
-  {
-    date: "2026-06-13",
-    project: "Antro",
-    city: "Villahermosa",
+    date: "2026-09-25",
+    project: "90s",
+    city: "San Miguel de Allende, GTO",
     venue: "TBC",
     ticket_link: "#", // Replace with real link
   },
   {
-    date: "2026-06-27",
+    date: "2026-09-29",
     project: "Kabah",
-    city: "Tijuana",
+    city: "Morelia, MICH",
     venue: "TBC",
     ticket_link: "#", // Replace with real link
   },
   {
-    date: "2026-08-22",
+    date: "2026-10-10",
     project: "Kabah",
-    city: "Monterrey",
-    venue: "Foro GNP",
+    city: "Chihuahua, CHIH",
+    venue: "Valle de los Encinos",
     ticket_link: "#", // Replace with real link
   },
   {
-    date: "2026-09-18",
+    date: "2026-10-24",
+    project: "Kabah",
+    city: "cdmx, MEX",
+    venue: "Plaza Satelite Aniversario",
+    ticket_link: "#", // Replace with real link
+  },
+  {
+    date: "2026-11-06",
     project: "Antro",
-    city: "Guadalajara",
-    venue: "Arena Guadalajara",
-    ticket_link:
-      "https://www.superboletos.com/landing-evento/UQ9esZeqP5p8rT7t7d_ZxQ",
+    city: "Ciudad Juarez, CHIH",
+    venue: "TBC",
+    ticket_link: "#", // Replace with real link
+  },
+  {
+    date: "2026-11-06",
+    project: "90s",
+    city: "Punta Mita, NAY",
+    venue: "TBC",
+    ticket_link: "#", // Replace with real link
   },
   // Add more as needed from ACF
 ];

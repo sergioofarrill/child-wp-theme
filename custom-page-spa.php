@@ -113,7 +113,7 @@
       </div>
 
       <div class="text-center mt-12 text-sm text-gray-400">
-        Mas fechas agregadas semanalmente. Sigue <a href="https://www.instagram.com/90spoptour/" target="_blank" class="text-blue-400 hover:underline">@90spoptour</a> para updates.
+        Mas fechas agregadas semanalmente. Sigue <a href="https://www.instagram.com/kabah_oficial/" target="_blank" class="text-blue-400 hover:underline">@kabah_oficial</a> y <a href="https://www.instagram.com/90spoptour/" target="_blank" class="text-blue-400 hover:underline">@90spoptour</a> para updates.
       </div>
     </div>
   </section>
