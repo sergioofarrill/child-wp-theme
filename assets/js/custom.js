@@ -48,13 +48,6 @@ function initParallax() {
 // In WordPress: Use PHP to echo ACF repeater as JSON and assign to window.tourDates
 const tourDates = [
   {
-    date: "2026-10-10",
-    project: "Kabah",
-    city: "Chihuahua, CHIH",
-    venue: "Valle de los Encinos",
-    ticket_link: "#", // Replace with real link
-  },
-  {
     date: "2026-10-24",
     project: "Kabah",
     city: "cdmx, MEX",
@@ -62,11 +55,18 @@ const tourDates = [
     ticket_link: "#", // Replace with real link
   },
   {
+    date: "2026-10-25",
+    project: "90s",
+    city: "Ciudad Victoria, TMP",
+    venue: "TBC",
+    ticket_link: "#", // Replace with real link!
+  },
+  {
     date: "2026-11-06",
     project: "Antro",
     city: "Ciudad Juarez, CHIH",
     venue: "TBC",
-    ticket_link: "#", // Replace with real link
+    ticket_link: "#", // Replace with real link!
   },
   {
     date: "2026-11-06",
