@@ -27,7 +27,7 @@
 
   <!-- HERO (unchanged) -->
   <section id="home" class="min-h-screen relative flex items-center">
-    <div class="absolute inset-0 z-0 parallax-bg bg-position-[center_top_10%]" style="background-image: url('https://sergioofarrill.com/wp-content/uploads/2026/04/hero-img-scaled.jpg');"></div>
+    <div class="absolute inset-0 z-0 parallax-bg bg-position-[center_top_10%]" style="background-image: url('https://sergioofarrill.com/app/assets/img/hero-img-scaled.jpg');"></div>
     <div class="absolute inset-0 bg-linear-to-b from-black/20 via-black/70 to-black"></div>
 
     <div class="relative z-10 max-w-screen-2xl mx-auto px-6 lg:px-12">
@@ -58,7 +58,7 @@
     <div class="max-w-screen-2xl mx-auto px-6 lg:px-12 grid md:grid-cols-12 gap-16">
         <div class="md:col-span-5 relative">
         <div class="z-0 parallax-layer rounded-3xl overflow-hidden" data-speed="0.3">
-          <img src="https://sergioofarrill.com/wp-content/uploads/2026/04/Copy-of-kabah-01-scaled.jpg" alt="Sergio O'Farrill portrait" class="w-full">
+          <img src="https://sergioofarrill.com/app/assets/img/Copy-of-kabah-01-scaled.jpg" alt="Sergio O'Farrill portrait" class="w-full">
         </div>
       </div>
       <div class="md:col-span-7">
@@ -88,10 +88,10 @@
       </div>
       
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        <div class="photo-card rounded-3xl overflow-hidden z-0 mt-20" data-speed="0.15"><img src="https://sergioofarrill.com/wp-content/uploads/2026/04/95FD1F8E-9C71-49A9-9EA4-A551294E1A17-scaled.jpg" alt="Stage performance" class="w-full aspect-4/5 object-cover"></div>
-        <div class="photo-card rounded-3xl overflow-hidden z-0 " data-speed="0.25"><img src="https://sergioofarrill.com/wp-content/uploads/2026/04/IMG_0231-scaled.jpg" alt="Skydiving" class="w-full aspect-4/5 object-cover"></div>
-        <div class="photo-card rounded-3xl overflow-hidden z-0 mt-20 " data-speed="0.1"><img src="https://sergioofarrill.com/wp-content/uploads/2026/04/GPTempDownload-scaled.jpg" alt="Motorcycle ride" class="w-full aspect-4/5 object-cover"></div>
-        <div class="photo-card rounded-3xl overflow-hidden z-0 " data-speed="0.3"><img src="https://sergioofarrill.com/wp-content/uploads/2026/04/DSF2885-scaled.jpg" alt="Travel portrait" class="w-full aspect-4/5 object-cover"></div>
+        <div class="photo-card rounded-3xl overflow-hidden z-0 mt-20" data-speed="0.15"><img src="https://sergioofarrill.com/app/assets/img/95FD1F8E-9C71-49A9-9EA4-A551294E1A17-scaled.jpg" alt="Stage performance" class="w-full aspect-4/5 object-cover"></div>
+        <div class="photo-card rounded-3xl overflow-hidden z-0 " data-speed="0.25"><img src="https://sergioofarrill.com/app/assets/img/IMG_0231-scaled.jpg" alt="Skydiving" class="w-full aspect-4/5 object-cover"></div>
+        <div class="photo-card rounded-3xl overflow-hidden z-0 mt-20 " data-speed="0.1"><img src="https://sergioofarrill.com/app/assets/img/GPTempDownload-scaled.jpg" alt="Motorcycle ride" class="w-full aspect-4/5 object-cover"></div>
+        <div class="photo-card rounded-3xl overflow-hidden z-0 " data-speed="0.3"><img src="https://sergioofarrill.com/app/assets/img/DSF2885-scaled.jpg" alt="Travel portrait" class="w-full aspect-4/5 object-cover"></div>
       </div>
     </div>
   </section>
@@ -201,7 +201,7 @@
       </div>
       
       <div class="bg-white/5 rounded-3xl p-8">
-         <img src="https://sergioofarrill.com/wp-content/uploads/2026/04/contact-img.jpg" 
+         <img src="https://sergioofarrill.com/app/assets/img/contact-img.jpg" 
                 class="aspect-video w-full rounded-2xl object-cover shadow-2xl" alt="fallback">
          <!--  
         <form action="https://formspree.io/f/your-id" method="POST">
